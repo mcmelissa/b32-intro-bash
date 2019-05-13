@@ -13,7 +13,7 @@ read -p "Voulez-vous chercher un mot? Si oui, 'd' pour continuer " reponse
 if test reponse=d; then
 	resultat=o
 	while test $resultat = o; do
+		./exercice1.sh
 		read -p "'o' pour continuer " resultat
-			./exercice1.sh
 	done
 fi

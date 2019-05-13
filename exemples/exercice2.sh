@@ -10,6 +10,8 @@
 
 read -p "Voulez-vous chercher un mot? Si oui, 'd' pour continuer " reponse
 
+#ou while test $resultat=d -o o; then  <-- une seule variable mais deux option possible
+
 if test reponse=d; then
 	resultat=o
 	while test $resultat = o; do

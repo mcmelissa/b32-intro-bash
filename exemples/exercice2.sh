@@ -14,6 +14,6 @@ if test reponse=d; then
 	resultat=o
 	while test $resultat = o; do
 			./exercice1.sh
-		read -p "'o' pour continuer" resultat
+		read -p "'o' pour continuer " resultat
 	done
 fi
